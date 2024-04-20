@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QTQ Restaurant</title>
+<style>
+    body {
+        background-color: #161616;
+        color: #e0e0e0;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+    }
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    h1, h2 {
+        color: #fff;
+    }
+    p, ul, label, input, textarea {
+        color: #e0e0e0;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>QTQ Restaurant</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div>
+            <img src="restaurant_image.jpg" alt="Restaurant Image">
+            <p>Welcome to QTQ Restaurant! We offer a variety of delicious dishes at affordable prices. Check out our menu below:</p>
+            <ul>
+                <li>Item 1 - Price: $10</li>
+                <li>Item 2 - Price: $12</li>
+                <li>Item 3 - Price: $8</li>
+                <li>Item 4 - Price: $15</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2022 QTQ Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
